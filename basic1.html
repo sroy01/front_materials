@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Website Starter Pack</title>
+        <!-- Tailwind CSS CDN -->
+        <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-black">
+
+        <!-- Navbar -->
+        <nav class="bg-white shadow p-4">
+                <div class="container mx-auto flex justify-between items-center">
+                        <a href="#" class="text-xl font-bold">MyWebsite</a>
+                        <ul class="hidden md:flex space-x-6">
+                                <li><a href="#" class="hover:text-blue-500">Home</a></li>
+                                <li><a href="#" class="hover:text-blue-500">About</a></li>
+                                <li><a href="#" class="hover:text-blue-500">Services</a></li>
+                                <li><a href="#" class="hover:text-blue-500">Contact</a></li>
+                        </ul>
+                </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="bg-white py-12 shadow">
+                <div class="container mx-auto text-center">
+                        <h1 class="text-4xl font-bold mb-4">Welcome to My Website</h1>
+                        <p class="mb-6">This is a simple responsive website layout for your lab work.</p>
+                        <a href="#" class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">Get Started</a>
+                </div>
+        </section>
+
+        <!-- Services -->
+        <section class="py-12 container mx-auto">
+                <h2 class="text-2xl font-bold text-center mb-8">Our Services</h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                        <div class="bg-white shadow p-6 rounded">
+                                <h3 class="text-lg font-bold mb-2">Web Design</h3>
+                                <p>Modern and responsive designs for your business.</p>
+                        </div>
+                        <div class="bg-white shadow p-6 rounded">
+                                <h3 class="text-lg font-bold mb-2">Development</h3>
+                                <p>Fast and scalable website development services.</p>
+                        </div>
+                        <div class="bg-white shadow p-6 rounded">
+                                <h3 class="text-lg font-bold mb-2">SEO</h3>
+                                <p>Improve your site ranking on search engines.</p>
+                        </div>
+                </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="bg-white shadow p-8 rounded max-w-xl mx-auto mb-12">
+                <h2 class="text-2xl font-bold mb-4">Contact Us</h2>
+                <form>
+                        <input type="text" placeholder="Name" class="w-full border p-3 rounded mb-4">
+                        <input type="email" placeholder="Email" class="w-full border p-3 rounded mb-4">
+                        <textarea placeholder="Message" class="w-full border p-3 rounded mb-4"></textarea>
+                        <button type="submit"
+                                class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">Send</button>
+                </form>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-gray-200 p-6 text-center">
+                <p>&copy; 2025 MyWebsite. All rights reserved.</p>
+        </footer>
+
+</body>
+
+</html>
