@@ -1,0 +1,135 @@
+## **1️⃣ Responsive Navbar**
+
+```html
+<!-- Navbar -->
+<nav class="bg-white shadow p-4">
+  <div class="container mx-auto flex justify-between items-center">
+    <a href="#" class="text-xl font-bold">MyWebsite</a>
+    <ul class="hidden md:flex space-x-6">
+      <li><a href="#" class="hover:text-blue-500">Home</a></li>
+      <li><a href="#" class="hover:text-blue-500">About</a></li>
+      <li><a href="#" class="hover:text-blue-500">Services</a></li>
+      <li><a href="#" class="hover:text-blue-500">Contact</a></li>
+    </ul>
+    <!-- Mobile Menu Button -->
+    <button id="menu-btn" class="md:hidden block focus:outline-none">
+      ☰
+    </button>
+  </div>
+  <!-- Mobile Menu -->
+  <div id="menu" class="hidden md:hidden mt-2">
+    <a href="#" class="block px-4 py-2 hover:bg-gray-100">Home</a>
+    <a href="#" class="block px-4 py-2 hover:bg-gray-100">About</a>
+    <a href="#" class="block px-4 py-2 hover:bg-gray-100">Services</a>
+    <a href="#" class="block px-4 py-2 hover:bg-gray-100">Contact</a>
+  </div>
+</nav>
+
+<script>
+document.getElementById("menu-btn").addEventListener("click", function() {
+  document.getElementById("menu").classList.toggle("hidden");
+});
+</script>
+```
+
+---
+
+## **2️⃣ Hero Section**
+
+```html
+<!-- Hero Section -->
+<section class="bg-gray-100 py-16 text-center">
+  <h1 class="text-4xl font-bold mb-4">Welcome to My Website</h1>
+  <p class="mb-6 text-lg">We create beautiful, responsive websites for all devices.</p>
+  <a href="#" class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">Get Started</a>
+</section>
+```
+
+---
+
+## **3️⃣ Card Grid (Services)**
+
+```html
+<!-- Services Section -->
+<section class="py-12 container mx-auto">
+  <h2 class="text-2xl font-bold text-center mb-8">Our Services</h2>
+  <div class="grid md:grid-cols-3 gap-8">
+    <div class="bg-white shadow p-6 rounded">
+      <h3 class="text-lg font-bold mb-2">Web Design</h3>
+      <p>Modern, responsive designs that stand out.</p>
+    </div>
+    <div class="bg-white shadow p-6 rounded">
+      <h3 class="text-lg font-bold mb-2">Development</h3>
+      <p>Fast and scalable web applications.</p>
+    </div>
+    <div class="bg-white shadow p-6 rounded">
+      <h3 class="text-lg font-bold mb-2">SEO</h3>
+      <p>Rank higher on search engines and grow your audience.</p>
+    </div>
+  </div>
+</section>
+```
+
+---
+
+## **4️⃣ Contact Form**
+
+```html
+<!-- Contact Form -->
+<section class="bg-white shadow p-8 rounded max-w-xl mx-auto my-12">
+  <h2 class="text-2xl font-bold mb-4">Contact Us</h2>
+  <form>
+    <input type="text" placeholder="Name" class="w-full border p-3 rounded mb-4">
+    <input type="email" placeholder="Email" class="w-full border p-3 rounded mb-4">
+    <textarea placeholder="Message" class="w-full border p-3 rounded mb-4"></textarea>
+    <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">Send</button>
+  </form>
+</section>
+```
+
+---
+
+## **5️⃣ Simple Footer**
+
+```html
+<!-- Footer -->
+<footer class="bg-gray-200 p-6 text-center">
+  <p>&copy; 2025 MyWebsite. All rights reserved.</p>
+</footer>
+```
+
+---
+
+## **6️⃣ Simple Alert Box**
+
+```html
+<!-- Alert -->
+<div class="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-4 m-4" role="alert">
+  <p class="font-bold">Warning</p>
+  <p>There’s a new software update available.</p>
+</div>
+```
+
+---
+
+## **7️⃣ Call to Action (CTA)**
+
+```html
+<!-- CTA Section -->
+<section class="bg-blue-600 text-white text-center py-10">
+  <h2 class="text-3xl font-bold mb-4">Ready to work with us?</h2>
+  <a href="#" class="bg-white text-blue-600 px-6 py-3 rounded hover:bg-gray-200">Contact Us</a>
+</section>
+```
+
+---
+
+## ✅ How You Can Use These in Lab
+
+* Just **include Tailwind CDN** at the top:
+
+```html
+<script src="https://cdn.tailwindcss.com"></script>
+```
+
+
